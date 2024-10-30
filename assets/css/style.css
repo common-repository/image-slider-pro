@@ -1,0 +1,52 @@
+/*
+ * Author: Bokhteyr Abid
+ * Author URL : https://abiddev.com/
+*/
+.image-slider-pro-area{
+	width: 100%;
+	overflow: hidden;
+}
+.image-slider-pro .owl-dots {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin: 0 auto;
+}
+.image-slider-pro .owl-dots .owl-dot span {
+	width: 16px;
+	height: 16px;
+	display: block;
+	background: #130f0f;
+	margin: 0px 5px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	border: 3px solid #fff;
+}
+.image-slider-pro .owl-dots .owl-dot.active span{
+	background: #fff;
+}
+.image-slider-pro-slider-nav.right {
+	clip-path: polygon(0 43%, 55% 41%, 53% 0, 100% 50%, 55% 100%, 57% 60%, 1% 60%);
+}
+.image-slider-pro-slider-nav.left {
+	clip-path: polygon(100% 37%, 46% 37%, 47% 0, 0 51%, 46% 100%, 47% 63%, 100% 61%);
+}
+.image-slider-pro-slider-nav {
+	width: 16px;
+	height: 17px;
+	background: #fff;
+	display: block;
+	cursor: pointer;
+}
+.image-slider-pro .owl-prev {
+	position: absolute;
+	top: 44%;
+	left: 3%;
+}
+.image-slider-pro .owl-next {
+	position: absolute;
+	top: 44%;
+	right: 3%;
+}
